@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body,
+#app-container {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import '~uswds/dist/css/uswds.css';
+
+body {
+  background: whitesmoke;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
