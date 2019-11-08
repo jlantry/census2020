@@ -17,16 +17,16 @@
 
 
 
-ul{
+.question_list{
     padding:0px;
     margin:0px;
 
 }
-li{
+.FAQ_li{
     list-style-type: none;
     margin-right:32px;
 }
-button{
+.question_button{
         width: 798px;
         min-height: 80px;
         background-color: #f6f6f7;
@@ -132,6 +132,6 @@ button{
         margin-bottom:24px;
    
 }
-main{
+.question_main{
     padding-bottom:146px;
 }

@@ -55,8 +55,8 @@ class Question extends React.Component {
         }
 
         return(
-            <li>
-                <button 
+            <li className="FAQ_li">
+                <button  className="question_button"
                     onClick={() => this.setState({expand: !this.state.expand})}>
                     <div
                         style={{display: 'flex', flexDirection: 'row'}}>
@@ -85,12 +85,12 @@ export default class FAQ extends React.Component {
                     defaultMessage="Frequently Asked Questions"
                     />
                 </header>
-                <main>
+                <main className="question_main">
                     <div className="c_rectangle_general_information">
                         <div className="c_gen_information">
                             General Information
                         </div>
-                        <ul> 
+                        <ul className="question_list"> 
                             <Question position={0} />
                             <Question position={1} />
                             <Question position={2} />
@@ -103,7 +103,7 @@ export default class FAQ extends React.Component {
                         <div className="c_security">
                             Security
                         </div>
-                        <ul>
+                        <ul className="question_list">
                             <Question position={5} />
                             <Question position={6} />
                             <Question position={7} />
@@ -114,7 +114,7 @@ export default class FAQ extends React.Component {
                         <div className="c_value">
                             Value
                         </div>
-                        <ul>
+                        <ul className="question_list">
                             <Question position={9} />
                             <Question position={10} />
                             <Question position={11} />
